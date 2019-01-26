@@ -1,0 +1,27 @@
+#!/bin/bash
+#
+# All lines starting with "#PBS" are PBS commands
+#
+# Request nodes
+#PBS -l nodes=5:ppn=16
+#
+# Set wall clock time to 2 hours, 0 minutes and 0 seconds
+#PBS -l walltime=2:00:00
+#
+# cd to working directory
+
+cd $PBS_O_WORKDIR
+
+nprocs=$(cat $PBS_NODEFILE | wc -l)
+
+#
+# name of executable
+MYPROG="./pluto"
+
+# Run MYPROG
+
+mpirun -machinefile $PBS_NODEFILE -np $nprocs $MYPROG
+# -dec 8 7 2
+
+# make sure to exit the script, else job may not finish properly
+exit 0
