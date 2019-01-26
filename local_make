@@ -1,0 +1,6 @@
+ HDF5_LIB = /home/alankar/Documents/pluto/pluto-4.3/PLUTO/dependencies/hdf5/parallel
+ INCLUDE_DIRS += -I$(HDF5_LIB)/include
+ LDFLAGS += -L$(HDF5_LIB)/lib -lhdf5 -lz
+ CFLAGS += -DUSE_HDF5
+ OBJ    += hdf5_io.o
+ LDFLAGS +=-lgsl -lgslcblas
