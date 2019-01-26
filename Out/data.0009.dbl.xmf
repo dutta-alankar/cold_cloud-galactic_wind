@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="2.0">
+ <Domain>
+   <Grid Name="node_mesh" GridType="Uniform">
+    <Time Value="8.009922e-01"/>
+     <Topology TopologyType="3DSMesh" NumberOfElements="33 33 129"/>
+     <Geometry GeometryType="X_Y_Z">
+       <DataItem Dimensions="33 33 129" NumberType="Float" Precision="4" Format="HDF">
+        .//data.0009.dbl.h5:/node_coords/X
+       </DataItem>
+       <DataItem Dimensions="33 33 129" NumberType="Float" Precision="4" Format="HDF">
+        .//data.0009.dbl.h5:/node_coords/Y
+       </DataItem>
+       <DataItem Dimensions="33 33 129" NumberType="Float" Precision="4" Format="HDF">
+        .//data.0009.dbl.h5:/node_coords/Z
+       </DataItem>
+     </Geometry>
+     <Attribute Name="rho" AttributeType="Scalar" Center="Cell">
+       <DataItem Dimensions="32 32 128" NumberType="Float" Precision="8" Format="HDF">
+        .//data.0009.dbl.h5:Timestep_9/vars/rho
+       </DataItem>
+     </Attribute>
+     <Attribute Name="vx1" AttributeType="Scalar" Center="Cell">
+       <DataItem Dimensions="32 32 128" NumberType="Float" Precision="8" Format="HDF">
+        .//data.0009.dbl.h5:Timestep_9/vars/vx1
+       </DataItem>
+     </Attribute>
+     <Attribute Name="vx2" AttributeType="Scalar" Center="Cell">
+       <DataItem Dimensions="32 32 128" NumberType="Float" Precision="8" Format="HDF">
+        .//data.0009.dbl.h5:Timestep_9/vars/vx2
+       </DataItem>
+     </Attribute>
+     <Attribute Name="vx3" AttributeType="Scalar" Center="Cell">
+       <DataItem Dimensions="32 32 128" NumberType="Float" Precision="8" Format="HDF">
+        .//data.0009.dbl.h5:Timestep_9/vars/vx3
+       </DataItem>
+     </Attribute>
+     <Attribute Name="prs" AttributeType="Scalar" Center="Cell">
+       <DataItem Dimensions="32 32 128" NumberType="Float" Precision="8" Format="HDF">
+        .//data.0009.dbl.h5:Timestep_9/vars/prs
+       </DataItem>
+     </Attribute>
+     <Attribute Name="tr1" AttributeType="Scalar" Center="Cell">
+       <DataItem Dimensions="32 32 128" NumberType="Float" Precision="8" Format="HDF">
+        .//data.0009.dbl.h5:Timestep_9/vars/tr1
+       </DataItem>
+     </Attribute>
+     <Attribute Name="T" AttributeType="Scalar" Center="Cell">
+       <DataItem Dimensions="32 32 128" NumberType="Float" Precision="8" Format="HDF">
+        .//data.0009.dbl.h5:Timestep_9/vars/T
+       </DataItem>
+     </Attribute>
+     <Attribute Name="X" AttributeType="Scalar" Center="Cell">
+       <DataItem Dimensions="32 32 128" NumberType="Float" Precision="4" Format="HDF">
+        .//data.0009.dbl.h5:/cell_coords/X
+       </DataItem>
+     </Attribute>
+     <Attribute Name="Y" AttributeType="Scalar" Center="Cell">
+       <DataItem Dimensions="32 32 128" NumberType="Float" Precision="4" Format="HDF">
+        .//data.0009.dbl.h5:/cell_coords/Y
+       </DataItem>
+     </Attribute>
+     <Attribute Name="Z" AttributeType="Scalar" Center="Cell">
+       <DataItem Dimensions="32 32 128" NumberType="Float" Precision="4" Format="HDF">
+        .//data.0009.dbl.h5:/cell_coords/Z
+       </DataItem>
+     </Attribute>
+   </Grid>
+ </Domain>
+</Xdmf>
