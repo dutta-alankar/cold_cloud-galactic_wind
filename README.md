@@ -1,6 +1,19 @@
 # cold_cloud-galactic_wind
 Script for hydrodynamic modelling cold clouds interacting with hot galactic winds using PLUTO Hydrodynamic solver (version 4.3)
 
+```
+ ▄████▄   ██▓     ▒█████   █    ██ ▓█████▄     ▄████▄   ██▀███   █    ██   ██████  ██░ ██  ██▓ ███▄    █   ▄████ 
+▒██▀ ▀█  ▓██▒    ▒██▒  ██▒ ██  ▓██▒▒██▀ ██▌   ▒██▀ ▀█  ▓██ ▒ ██▒ ██  ▓██▒▒██    ▒ ▓██░ ██▒▓██▒ ██ ▀█   █  ██▒ ▀█▒
+▒▓█    ▄ ▒██░    ▒██░  ██▒▓██  ▒██░░██   █▌   ▒▓█    ▄ ▓██ ░▄█ ▒▓██  ▒██░░ ▓██▄   ▒██▀▀██░▒██▒▓██  ▀█ ██▒▒██░▄▄▄░
+▒▓▓▄ ▄██▒▒██░    ▒██   ██░▓▓█  ░██░░▓█▄   ▌   ▒▓▓▄ ▄██▒▒██▀▀█▄  ▓▓█  ░██░  ▒   ██▒░▓█ ░██ ░██░▓██▒  ▐▌██▒░▓█  ██▓
+▒ ▓███▀ ░░██████▒░ ████▓▒░▒▒█████▓ ░▒████▓    ▒ ▓███▀ ░░██▓ ▒██▒▒▒█████▓ ▒██████▒▒░▓█▒░██▓░██░▒██░   ▓██░░▒▓███▀▒
+░ ░▒ ▒  ░░ ▒░▓  ░░ ▒░▒░▒░ ░▒▓▒ ▒ ▒  ▒▒▓  ▒    ░ ░▒ ▒  ░░ ▒▓ ░▒▓░░▒▓▒ ▒ ▒ ▒ ▒▓▒ ▒ ░ ▒ ░░▒░▒░▓  ░ ▒░   ▒ ▒  ░▒   ▒ 
+  ░  ▒   ░ ░ ▒  ░  ░ ▒ ▒░ ░░▒░ ░ ░  ░ ▒  ▒      ░  ▒     ░▒ ░ ▒░░░▒░ ░ ░ ░ ░▒  ░ ░ ▒ ░▒░ ░ ▒ ░░ ░░   ░ ▒░  ░   ░ 
+░          ░ ░   ░ ░ ░ ▒   ░░░ ░ ░  ░ ░  ░    ░          ░░   ░  ░░░ ░ ░ ░  ░  ░   ░  ░░ ░ ▒ ░   ░   ░ ░ ░ ░   ░ 
+░ ░          ░  ░    ░ ░     ░        ░       ░ ░         ░        ░           ░   ░  ░  ░ ░           ░       ░ 
+░                                   ░         ░                                                                  
+```
+
 The work is in line with the method discussed in "The growth and entrainment of cold gas in a hot wind" (https://arxiv.org/abs/1806.02728) by Max Gronke and S. Peng Oh.
 
 Absorption and Emission lines of spectra from cold gas around galaxies indicate they possess speeds of about several hunderd km/s. 
